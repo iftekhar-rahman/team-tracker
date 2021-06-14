@@ -1,0 +1,35 @@
+.detail-content{
+    background-image: url(../../img/banner-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: #ddd;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.league-box {
+    display: flex;
+    background-color: brown;
+    padding: 20px ;
+    border-radius: 20px;
+    margin: 40px 0;
+    color: #fff;
+}
+
+.left {
+    flex-basis: 70%;
+}
+
+.right {
+    flex-basis: 30%;
+}
+
+.right img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.league-box {}

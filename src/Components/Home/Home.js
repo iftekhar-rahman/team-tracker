@@ -20,7 +20,7 @@ const Home = () => {
             <div className="banner-area">
                 <h1>Team Tracker</h1>
             </div>
-            <Container fixed>
+            <Container fixed className="home-content">
                 <div className="league-content">
                     {
                         leagues.map(league => <Leagues league={league}></Leagues>)
